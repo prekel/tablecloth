@@ -24,7 +24,7 @@
     "@glennsl/bs-jest"
   ],
   "bsc-flags": [
-    "-bs-g", "-bs-super-errors", "-warn-error", "@A", "-w", "-4-9-30-40-41-42-44-102"],
+    "-bs-g", "-bs-super-errors", "-w", "-4-9-30-40-41-42-44-102"],
   "warnings": {
     "error" : "+101"
   },
