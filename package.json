@@ -16,13 +16,13 @@
   "license": "MIT",
   "devDependencies": {
     "@glennsl/bs-jest": "0.5.1",
-    "bs-platform": ">=9.0.2"
+    "rescript": "^9.1.4"
   },
   "dependencies": {},
   "scripts": {
-    "clean": "bsb -clean-world",
-    "build": "bsb -make-world",
-    "watch": "bsb -make-world -w",
+    "clean": "rescript clean",
+    "build": "rescript",
+    "watch": "rescript -w",
     "test": "jest"
   },
   "jest": {
