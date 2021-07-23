@@ -1,6 +1,6 @@
 {
   "name": "tablecloth-bucklescript",
-  "version": "0.0.7",
+  "version": "0.0.7-rescript",
   "repository": "https://github.com/darklang/tablecloth",
   "private": false,
   "author": "Paul Biggar <paul@darklang.com>",
@@ -9,7 +9,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^7.3.2",
+    "bs-platform": "9.0.2",
     "@glennsl/bs-jest": "^0.5.1"
   },
   "dependencies": {},

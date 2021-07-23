@@ -1241,7 +1241,7 @@ module String = struct
   let from_list = fromList
 
   let toList (s : string) : char list =
-    s |> Js.String.castToArrayLike |> Js.Array.from |> Belt.List.fromArray
+    s |> Js.String2.castToArrayLike |> Js.Array.from |> Belt.List.fromArray |. Belt.List.map (fun str -> str.[0])
 
 
   let to_list = toList
