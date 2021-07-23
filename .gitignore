@@ -11,3 +11,8 @@
 /integration-test/bs/lib/
 /bs/.bsb.lock
 /test-native/test-native.xml
+
+/node_modules
+/src/tablecloth.bs.js
+/lib
+/__tests__/tablecloth_test.bs.js

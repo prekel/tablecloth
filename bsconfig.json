@@ -3,14 +3,14 @@
   "version": "0.0.7",
   "sources": [
     {
-      "dir" : "src",
+      "dir" : "bs/src",
       "subdirs" : false,
       "public": [
         "Tablecloth"
       ]
     },
     {
-      "dir": "__tests__",
+      "dir": "bs/__tests__",
       "type": "dev"
     }
   ],
